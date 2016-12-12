@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebMiF", "..\WebMiF\WebMiF.csproj", "{4C679BE9-8BE1-452A-8722-E5C4BBCE1E77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebMiF.Tests", "WebMiF.Tests\WebMiF.Tests.csproj", "{33AEDFE3-C359-4FA7-8E42-9FAF07122FED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbLayer", "DbLayer\DbLayer.csproj", "{1E2FF035-8A26-42C6-9571-FD6D97481D5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C679BE9-8BE1-452A-8722-E5C4BBCE1E77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C679BE9-8BE1-452A-8722-E5C4BBCE1E77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C679BE9-8BE1-452A-8722-E5C4BBCE1E77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C679BE9-8BE1-452A-8722-E5C4BBCE1E77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33AEDFE3-C359-4FA7-8E42-9FAF07122FED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33AEDFE3-C359-4FA7-8E42-9FAF07122FED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33AEDFE3-C359-4FA7-8E42-9FAF07122FED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33AEDFE3-C359-4FA7-8E42-9FAF07122FED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E2FF035-8A26-42C6-9571-FD6D97481D5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E2FF035-8A26-42C6-9571-FD6D97481D5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E2FF035-8A26-42C6-9571-FD6D97481D5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E2FF035-8A26-42C6-9571-FD6D97481D5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
